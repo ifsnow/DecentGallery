@@ -1,0 +1,18 @@
+// @flow
+
+export const EFFECTS = {
+  VERTICAL_TWO_SECTIONS: 'VERTICAL_TWO_SECTIONS',
+  HORIZONTAL_TWO_SECTIONS: 'HORIZONTAL_TWO_SECTIONS',
+  VERTICAL_THREE_FOLDING: 'VERTICAL_THREE_FOLDING',
+  FOUR_SECTIONS: 'FOUR_SECTIONS',
+};
+
+export type Effects = $Keys<typeof EFFECTS>;
+
+export const EFFECT_TYPES = {
+  TYPE1: 'TYPE1',
+  TYPE2: 'TYPE2',
+  TYPE3: 'TYPE3',
+};
+
+export type EffectTypes = $Keys<typeof EFFECT_TYPES>;
